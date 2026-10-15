@@ -1,0 +1,17 @@
+{
+  "name": "malvia-cloud",
+  "version": "0.1.0",
+  "description": "MALVIA Nexus cloud sync server (multi-device, offline-first)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --no-warnings test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "optionalDependencies": {
+    "better-sqlite3": "^11.10.0"
+  },
+  "license": "UNLICENSED"
+}
